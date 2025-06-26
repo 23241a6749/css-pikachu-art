@@ -1,0 +1,95 @@
+/* Background and centering */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Pikachu's face base */
+.pikachu {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: #fdd835; /* Pikachu yellow */
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 10px #e6b800, inset 5px 5px 10px #fff176;
+}
+
+/* Eyes */
+.eye {
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+}
+.eye.left {
+  left: 60px;
+}
+.eye.right {
+  right: 60px;
+}
+
+/* Cheeks */
+.cheek {
+  width: 40px;
+  height: 40px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+}
+.cheek.left {
+  left: 30px;
+}
+.cheek.right {
+  right: 30px;
+}
+
+/* Nose */
+.nose {
+  position: absolute;
+  top: 115px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  background: black;
+  border-radius: 50%;
+}
+
+/* Mouth */
+.mouth {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 20px;
+}
+
+.smile {
+  width: 20px;
+  height: 20px;
+  border: 3px solid black;
+  border-top: none;
+  border-left: none;
+  border-radius: 0 0 50% 50%;
+  position: absolute;
+  bottom: 0;
+}
+
+.smile.left {
+  left: 0;
+  transform: rotate(15deg);
+}
+
+.smile.right {
+  right: 0;
+  transform: rotate(-15deg);
+}
