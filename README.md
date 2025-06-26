@@ -6,7 +6,9 @@ A pure HTML & CSS recreation of **Pikachu**, built entirely without images, SVGs
 
 ## 🔍 Preview
 
-![Pikachu Screenshot]![Screenshot 2025-06-26 163807](https://github.com/user-attachments/assets/187dd419-e386-48f7-bd21-e38ddc06751b)
+![Pikachu Screenshot]![image](https://github.com/user-attachments/assets/18df3658-cea4-4aea-a822-22045e8a9003)
+
+
 
 
 ---
