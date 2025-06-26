@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  background: #fffde7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pikachu {
+  position: relative;
+  width: 220px;
+  height: 320px;
+}
+
+.tail {
+  position: absolute;
+  width: 20px;
+  height: 80px;
+  background: #fdd835;
+  left: -30px;
+  top: 120px;
+  transform: rotate(-20deg) skewY(-10deg);
+  box-shadow:
+    30px -20px 0 #fdd835,
+    60px -40px 0 #fdd835,
+    60px -40px 0 #000;
+  z-index: 0;
+}
+
+.ear {
+  width: 26px;
+  height: 90px;
+  background: #fdd835;
+  position: absolute;
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
+}
+.ear.left {
+  top: 0;
+  left: 20px;
+  transform: rotate(-15deg);
+}
+.ear.right {
+  top: 0;
+  right: 20px;
+  transform: rotate(15deg);
+}
+.ear::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 30px;
+  width: 100%;
+  background: #000;
+}
+
+.body {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 180px;
+  height: 220px;
+  background: #fdd835;
+  border-radius: 90px / 70px;
+  z-index: 1;
+}
+
+.eye {
+  width: 26px;
+  height: 26px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+}
+.eye.left { left: 35px; }
+.eye.right { right: 35px; }
+.eye .shine {
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 6px;
+}
+
+.cheek {
+  width: 28px;
+  height: 28px;
+  background: #f44336;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+}
+.cheek.left { left: 15px; }
+.cheek.right { right: 15px; }
+
+.nose {
+  width: 6px;
+  height: 6px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 74px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mouth {
+  width: 40px;
+  height: 20px;
+  border-bottom: 3px solid #000;
+  border-radius: 0 0 50px 50px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.arm {
+  width: 30px;
+  height: 50px;
+  background: #fdd835;
+  border-radius: 50%;
+  position: absolute;
+  top: 120px;
+  z-index: 2;
+}
+.arm.left {
+  left: -20px;
+  transform: rotate(-30deg);
+}
+.arm.right {
+  right: -20px;
+  transform: rotate(30deg);
+}
+
+.foot {
+  width: 30px;
+  height: 15px;
+  background: #fdd835;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+}
+.foot.left { left: 40px; }
+.foot.right { right: 40px; }
