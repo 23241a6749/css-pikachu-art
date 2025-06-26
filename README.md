@@ -15,8 +15,8 @@ A pure HTML & CSS recreation of **Pikachu**, built entirely without images, SVGs
 
 ## 🚀 Live Demo
 
-- 🌐 Live Site: [https://yourusername.github.io/css-pikachu-art/](https://23241a6749.github.io/css-pikachu-art/)
-- 📦 Repository: [https://github.com/yourusername/css-pikachu-art](https://github.com/23241a6749/css-pikachu-art)
+- 🌐 Live Site: [https://23241a6749.github.io/css-pikachu-art/](https://23241a6749.github.io/css-pikachu-art/)
+- 📦 Repository: [https://github.com/23241a6749/css-pikachu-art](https://github.com/23241a6749/css-pikachu-art)
 
 ---
 
